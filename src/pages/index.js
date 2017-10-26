@@ -35,7 +35,8 @@ export default function Index({ data }) {
             </GatsbyLink>
             <h1>Gustavo Gard</h1>
             <p>
-              I'm a computer software engineering with experience in both frontend and backend.
+              I'm a computer software engineering with experience in both
+              frontend and backend.
             </p>
           </div>
           <header className="header">Latest Posts</header>

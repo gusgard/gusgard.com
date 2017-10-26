@@ -41,9 +41,15 @@ class Menu extends React.Component {
             >
               <ul className="nav navbar-nav navbar-right">
                 <li>
-                  <GatsbyLink exact activeStyle={{
-                    color: '#fff'
-                  }} to="/">Home</GatsbyLink>
+                  <GatsbyLink
+                    exact
+                    activeStyle={{
+                      color: '#fff',
+                    }}
+                    to="/"
+                  >
+                    Home
+                  </GatsbyLink>
                 </li>
                 {/* <li>
                   <GatsbyLink exact activeStyle={{
@@ -51,9 +57,15 @@ class Menu extends React.Component {
                   }} to="/about">About</GatsbyLink>
                 </li> */}
                 <li>
-                  <GatsbyLink exact activeStyle={{
-                    color: '#fff'
-                  }} to="/contact">Contact</GatsbyLink>
+                  <GatsbyLink
+                    exact
+                    activeStyle={{
+                      color: '#fff',
+                    }}
+                    to="/contact"
+                  >
+                    Contact
+                  </GatsbyLink>
                 </li>
               </ul>
             </div>

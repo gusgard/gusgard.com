@@ -29,30 +29,49 @@ export default function Contact({ data }) {
                 src={AvatarImg}
                 alt="Gustavo Gard"
               />
-              <h1>In need for a Web Developer? <br/>Search no more.</h1>
+              <h1>
+                In need for a Web Developer? <br />Search no more.
+              </h1>
             </div>
           </header>
           <Separator />
           <main role="main">
             <p>
-              Lorem ipsum dolor sit amet, __consectetur__ adipiscing elit. Cras imperdiet nec erat ac condimentum. Nulla vel rutrum ligula. Sed hendrerit interdum orci a posuere. Vivamus ut velit aliquet, mollis purus eget, iaculis nisl. Proin posuere malesuada ante. Proin auctor orci eros, ac molestie lorem dictum nec. Vestibulum sit amet erat est. Morbi luctus sed elit ac luctus. Proin blandit, enim vitae egestas posuere, neque elit ultricies dui, vel mattis nibh enim
+              Lorem ipsum dolor sit amet, __consectetur__ adipiscing elit. Cras
+              imperdiet nec erat ac condimentum. Nulla vel rutrum ligula. Sed
+              hendrerit interdum orci a posuere. Vivamus ut velit aliquet,
+              mollis purus eget, iaculis nisl. Proin posuere malesuada ante.
+              Proin auctor orci eros, ac molestie lorem dictum nec. Vestibulum
+              sit amet erat est. Morbi luctus sed elit ac luctus. Proin blandit,
+              enim vitae egestas posuere, neque elit ultricies dui, vel mattis
+              nibh enim
             </p>
             <p>
-              Lorem ipsum dolor sit amet adipiscing elit. Cras imperdiet nec erat ac condimentum. Nulla vel rutrum ligula. Sed hendrerit interdum orci a posuere. Vivamus ut velit aliquet, mollis purus eget, iaculis nisl. Proin posuere malesuada ante. Proin auctor orci eros, ac molestie lorem dictum nec. Vestibulum sit amet erat est. Morbi luctus sed elit ac luctus. Proin blandit, enim vitae egestas posuere, neque elit ultricies dui, vel mattis nibh enim
+              Lorem ipsum dolor sit amet adipiscing elit. Cras imperdiet nec
+              erat ac condimentum. Nulla vel rutrum ligula. Sed hendrerit
+              interdum orci a posuere. Vivamus ut velit aliquet, mollis purus
+              eget, iaculis nisl. Proin posuere malesuada ante. Proin auctor
+              orci eros, ac molestie lorem dictum nec. Vestibulum sit amet erat
+              est. Morbi luctus sed elit ac luctus. Proin blandit, enim vitae
+              egestas posuere, neque elit ultricies dui, vel mattis nibh enim
             </p>
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
+            <p>Lorem ipsum dolor sit amet.</p>
             <p>
               <a href="https://linkedin.com/in/gusgard/">LinkedIn profile</a>,
               my <a href="https://github.com/gusgard">GitHub profile</a> or{' '}
-              <a href="mailto:gusgard@gmail.com?subject=Freelance%20Javascript%20development">contact me directly</a>. I like receiving email from people.
+              <a href="mailto:gusgard@gmail.com?subject=Freelance%20Javascript%20development">
+                contact me directly
+              </a>. I like receiving email from people.
             </p>
             <p>
-              <b>Lorem ipsum dolor sit amet adipiscing elit. Cras imperdiet nec</b>
+              <b>
+                Lorem ipsum dolor sit amet adipiscing elit. Cras imperdiet nec
+              </b>
             </p>
             <p>
-              <a href="mailto:gusgard@gmail.com?subject=Freelance%20Javascript%20development">Email me</a>{' '}
+              <a href="mailto:gusgard@gmail.com?subject=Freelance%20Javascript%20development">
+                Email me
+              </a>{' '}
               Lorem ipsum dolor sit amet adipiscing elit. Cras imperdiet nec
             </p>
           </main>

@@ -34,9 +34,7 @@ export default class Template extends React.Component {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
           <meta name="HandheldFriendly" content="True" />
         </Helmet>
-        <section className="main-content">
-          {this.props.children()}
-        </section>
+        <section className="main-content">{this.props.children()}</section>
         <Footer />
       </div>
     );

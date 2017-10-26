@@ -1,7 +1,7 @@
 import React from 'react';
 import GatsbyLink from 'gatsby-link';
 
-const Footer = () =>
+const Footer = () => (
   <div>
     {/* <footer className="footer">
       <div className="container">
@@ -57,11 +57,7 @@ const Footer = () =>
           </a>
         </li>
         <li>
-          <a
-            target="_blank"
-            href="https://medium.com/@gusgard"
-            title="medium"
-          >
+          <a target="_blank" href="https://medium.com/@gusgard" title="medium">
             <i className="icon-medium" />
           </a>
         </li>
@@ -95,6 +91,7 @@ const Footer = () =>
         </a>
       </div>
     </footer>
-  </div>;
+  </div>
+);
 
 export default Footer;
