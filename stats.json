@@ -1,0 +1,96 @@
+{
+  "assetsByChunkName": {
+    "path---tag-inspiration": [
+      "path---tag-inspiration-16bd9c7490d7c3022e33.js",
+      "path---tag-inspiration-16bd9c7490d7c3022e33.js.map"
+    ],
+    "path---webpack": [
+      "path---webpack-7f656502e37a47feb0ac.js",
+      "path---webpack-7f656502e37a47feb0ac.js.map"
+    ],
+    "component---src-pages-drafts-js": [
+      "component---src-pages-drafts-js-0aaee5b68a6e0b6d43fd.js",
+      "component---src-pages-drafts-js-0aaee5b68a6e0b6d43fd.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-1adde5a218e478043791.js",
+      "component---src-pages-index-js-1adde5a218e478043791.js.map"
+    ],
+    "component---src-templates-tags-js": [
+      "component---src-templates-tags-js-21df1800bfa1da11637f.js",
+      "component---src-templates-tags-js-21df1800bfa1da11637f.js.map"
+    ],
+    "path---drafts-page-1": [
+      "path---drafts-page-1-19c48683df35a27865eb.js",
+      "path---drafts-page-1-19c48683df35a27865eb.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---tag-dev-life": [
+      "path---tag-dev-life-aa718d8c2f3a0230478b.js",
+      "path---tag-dev-life-aa718d8c2f3a0230478b.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-6ddb4e5f842543451693.js",
+      "component---src-pages-contact-js-6ddb4e5f842543451693.js.map"
+    ],
+    "component---src-templates-page-js": [
+      "component---src-templates-page-js-7e92a09457afc7786660.js",
+      "component---src-templates-page-js-7e92a09457afc7786660.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-086af4b51ef6e3d1f128.js",
+      "component---src-templates-blog-post-js-086af4b51ef6e3d1f128.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-c92f1b3b4b7855d24117.js",
+      "component---src-layouts-index-js-c92f1b3b4b7855d24117.js.map"
+    ],
+    "path---index": [
+      "path---index-b7e70a7a62bc5bafcea7.js",
+      "path---index-b7e70a7a62bc5bafcea7.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-072340b050e3ca90cacd.js",
+      "component---src-pages-404-js-072340b050e3ca90cacd.js.map"
+    ],
+    "commons": [
+      "commons-01e1e19fbb8cd3ac4022.js",
+      "commons-01e1e19fbb8cd3ac4022.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---contact": [
+      "path---contact-7df36f555b1089fb5ad7.js",
+      "path---contact-7df36f555b1089fb5ad7.js.map"
+    ],
+    "path---live-the-lorem": [
+      "path---live-the-lorem-0a132b8443e71e08a9b0.js",
+      "path---live-the-lorem-0a132b8443e71e08a9b0.js.map"
+    ],
+    "app": [
+      "app-6fa45139d89a5ad1d6fc.js",
+      "app-6fa45139d89a5ad1d6fc.js.map"
+    ],
+    "path---it-lorem-sense": [
+      "path---it-lorem-sense-99b68321bb7ab16ffdbe.js",
+      "path---it-lorem-sense-99b68321bb7ab16ffdbe.js.map"
+    ],
+    "path---drafts": [
+      "path---drafts-093127f280aa6d27a750.js",
+      "path---drafts-093127f280aa6d27a750.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---page-1": [
+      "path---page-1-6e140eabbde1e8329dc7.js",
+      "path---page-1-6e140eabbde1e8329dc7.js.map"
+    ]
+  }
+}

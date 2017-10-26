@@ -1,0 +1,2 @@
+webpackJsonp([0xa7f31e1aeaea],{338:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Gustavo Gard' Blog",description:"I'm Gustavo Gard a computer software engineering with experience in both frontend and backend.",siteUrl:"https://gusgard.com"}}},pathContext:{}}}});
+//# sourceMappingURL=path---contact-7df36f555b1089fb5ad7.js.map
