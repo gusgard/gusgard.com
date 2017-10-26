@@ -45,11 +45,11 @@ class Menu extends React.Component {
                     color: '#fff'
                   }} to="/">Home</GatsbyLink>
                 </li>
-                <li>
+                {/* <li>
                   <GatsbyLink exact activeStyle={{
                     color: '#fff'
                   }} to="/about">About</GatsbyLink>
-                </li>
+                </li> */}
                 <li>
                   <GatsbyLink exact activeStyle={{
                     color: '#fff'

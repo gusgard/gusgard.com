@@ -35,40 +35,25 @@ export default function Contact({ data }) {
           <Separator />
           <main role="main">
             <p>
-              I am a web developer with almost ten years of experience in
-              creating web applications and services. I can help you design your
-              business infrastructure and your development team management
-              process. I can help you set your testing strategy and build your
-              application's architecture.
+              Lorem ipsum dolor sit amet, __consectetur__ adipiscing elit. Cras imperdiet nec erat ac condimentum. Nulla vel rutrum ligula. Sed hendrerit interdum orci a posuere. Vivamus ut velit aliquet, mollis purus eget, iaculis nisl. Proin posuere malesuada ante. Proin auctor orci eros, ac molestie lorem dictum nec. Vestibulum sit amet erat est. Morbi luctus sed elit ac luctus. Proin blandit, enim vitae egestas posuere, neque elit ultricies dui, vel mattis nibh enim
             </p>
             <p>
-              Regarding the stack, I am currently working extensively with
-              Javascript/Node.js and React.js to build robust web applications
-              and services. My I/P/F-aaS of preference is AWS.
+              Lorem ipsum dolor sit amet adipiscing elit. Cras imperdiet nec erat ac condimentum. Nulla vel rutrum ligula. Sed hendrerit interdum orci a posuere. Vivamus ut velit aliquet, mollis purus eget, iaculis nisl. Proin posuere malesuada ante. Proin auctor orci eros, ac molestie lorem dictum nec. Vestibulum sit amet erat est. Morbi luctus sed elit ac luctus. Proin blandit, enim vitae egestas posuere, neque elit ultricies dui, vel mattis nibh enim
             </p>
             <p>
-              Above all, I am getting things done.
+              Lorem ipsum dolor sit amet.
             </p>
             <p>
-              This site should provide you with {' '}
-              <GatsbyLink
-                className="footer-link"
-                to="/about"
-                title="About gusgard.com"
-              >
-              all the information
-              </GatsbyLink> you need
-              but if you still have questions, please consult my{' '}
               <a href="https://linkedin.com/in/gusgard/">LinkedIn profile</a>,
               my <a href="https://github.com/gusgard">GitHub profile</a> or{' '}
               <a href="mailto:gusgard@gmail.com?subject=Freelance%20Javascript%20development">contact me directly</a>. I like receiving email from people.
             </p>
             <p>
-              <b>I am currently available to hire for a limited time of work per week.</b>
+              <b>Lorem ipsum dolor sit amet adipiscing elit. Cras imperdiet nec</b>
             </p>
             <p>
               <a href="mailto:gusgard@gmail.com?subject=Freelance%20Javascript%20development">Email me</a>{' '}
-              to talk about your project or just to say hi.
+              Lorem ipsum dolor sit amet adipiscing elit. Cras imperdiet nec
             </p>
           </main>
         </div>
