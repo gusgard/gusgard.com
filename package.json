@@ -6,6 +6,7 @@
     "bootstrap-sass": "^3.3.7",
     "dateformat": "^2.2.0",
     "gatsby": "^1.9.54",
+    "gatsby-cli": "^1.1.7",
     "gatsby-link": "^1.6.20",
     "gatsby-plugin-canonical-urls": "^1.0.6",
     "gatsby-plugin-catch-links": "^1.0.9",
@@ -30,17 +31,17 @@
     "react-router-scroll": "github:ytase/react-router-scroll#build",
     "react-share": "^1.16.0",
     "rimraf": "^2.6.2",
-    "uuid": "^3.1.0",
-    "gatsby-cli": "^1.1.7"
+    "uuid": "^3.1.0"
   },
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "deploy": "gh-pages -d public",
+    "deploy": "yarn build && gh-pages -d public",
     "develop": "gatsby develop",
     "preserve": "npm run build",
     "serve": "gatsby serve",
     "start": "npm run develop",
-    "format": "prettier --trailing-comma es5 --single-quote --write \"src/**/*.js\"",
+    "format":
+      "prettier --trailing-comma es5 --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Should probably write some tests!\""
   }
 }

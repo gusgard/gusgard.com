@@ -82,6 +82,13 @@ ammo@1.x.x:
     boom "2.x.x"
     hoek "2.x.x"
 
+animated@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/animated/-/animated-0.2.0.tgz#1a0e96f097b3fbc5b64d7eddc723bcc0a6f97633"
+  dependencies:
+    invariant "^2.2.0"
+    normalize-css-color "^1.0.1"
+
 ansi-escapes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-3.0.0.tgz#ec3e8b4e9f8064fc02c3ac9b65f1c275bda8ef92"
@@ -6167,6 +6174,10 @@ nopt@^4.0.1:
     abbrev "1"
     osenv "^0.1.4"
 
+normalize-css-color@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/normalize-css-color/-/normalize-css-color-1.0.2.tgz#02991e97cccec6623fe573afbbf0de6a1f3e9f8d"
+
 normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.4.0.tgz#12f95a307d58352075a04907b84ac8be98ac012f"
@@ -6340,6 +6351,10 @@ onetime@^2.0.0:
   resolved "https://registry.yarnpkg.com/onetime/-/onetime-2.0.1.tgz#067428230fd67443b2794b22bba528b6867962d4"
   dependencies:
     mimic-fn "^1.0.0"
+
+only-react-css-property-operations@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/only-react-css-property-operations/-/only-react-css-property-operations-1.0.0.tgz#dfc65acbc36d2516bddffd09faeb7de8d0b45482"
 
 open@0.0.5:
   version "0.0.5"
@@ -7497,6 +7512,13 @@ react-disqus-thread@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/react-disqus-thread/-/react-disqus-thread-0.4.0.tgz#7fd63786ea5034fb5df25facd7f4c49d1204ad03"
 
+react-dom-animated@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-dom-animated/-/react-dom-animated-1.0.3.tgz#adf9877045c23e40f7a7ef7dbc7381abe1dba02c"
+  dependencies:
+    animated "^0.2.0"
+    only-react-css-property-operations "^1.0.0"
+
 react-dom@^15.6.0:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
@@ -7577,6 +7599,13 @@ react-side-effect@^1.1.0:
   dependencies:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
+
+react-springy-parallax@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-springy-parallax/-/react-springy-parallax-1.1.0.tgz#e40ff94224e6f02ac75543395bf0f5b0fc276ba9"
+  dependencies:
+    prop-types "^15.6.0"
+    react-dom-animated "^1.0.3"
 
 react@^15.6.0:
   version "15.6.2"
