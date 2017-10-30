@@ -36,70 +36,69 @@ export default class Template extends React.Component {
         </Helmet>
         <section className="main-content" id="container">
           {this.props.children()}
-          <figure
-            className="circle-crazy parallax circle-1"
-            data-wrapper="#container"
-            data-translate-y-speed="-0.18"
-            data-translate-x-speed="-0.13"
-            data-rotate-speed="0.15"
-            data-opacity-speed="-0.6"
 
-          >
-            {Array(36)
-              .fill('')
-              .map((j, index) => (
-                <i className="circle-line red large" key={index} />
-              ))}
-          </figure>
+          <div>
+            <figure
+              className="circle-crazy parallax circle-1"
+              data-wrapper="#container"
+              data-translate-y-speed="-0.18"
+              data-translate-x-speed="-0.13"
+              data-rotate-speed="0.15"
+              data-opacity-speed="-0.6"
+            >
+              {Array(36)
+                .fill('')
+                .map((j, index) => (
+                  <i className="circle-line red large" key={index} />
+                ))}
+            </figure>
 
-          <figure
-            className="circle-crazy parallax circle-2"
-            data-opacity-speed="-1.5"
-            data-rotate-speed="0.35"
-            data-translate-y-speed="0.66"
-            data-translate-x-speed="0.26"
-            data-wrapper="#container"
-          >
-            {Array(36)
-              .fill('')
-              .map((j, index) => (
-                <i className="circle-line" key={index} />
-              ))}
-          </figure>
+            <figure
+              className="circle-crazy parallax circle-2"
+              data-opacity-speed="-1.5"
+              data-rotate-speed="0.35"
+              data-translate-y-speed="0.66"
+              data-translate-x-speed="0.26"
+              data-wrapper="#container"
+            >
+              {Array(36)
+                .fill('')
+                .map((j, index) => <i className="circle-line" key={index} />)}
+            </figure>
 
-          <figure
-            className="circle-crazy parallax circle-3"
-            data-opacity-initial="0.45"
-            data-rotate-speed="0.55"
-            data-translate-y-speed="0.36"
-            data-translate-x-speed="-0.06"
-            data-wrapper="#container"
-          >
-            {Array(36)
-              .fill('')
-              .map((j, index) => (
-                <i className="circle-line small" key={index} />
-              ))}
-          </figure>
+            <figure
+              className="circle-crazy parallax circle-3"
+              // data-opacity-initial="0.45"
+              data-opacity-speed="-0.7"
+              data-rotate-speed=".55"
+              data-translate-y-speed="-0.04"
+              data-translate-x-speed="-0.26"
+              data-wrapper="#container"
+            >
+              {Array(36)
+                .fill('')
+                .map((j, index) => (
+                  <i className="circle-line small" key={index} />
+                ))}
+            </figure>
 
-          <figure
-            className="circle-crazy parallax circle-4"
-            // data-opacity-initial="0.9"
-            data-rotate-speed="0.55"
-            data-translate-y-speed="0.76"
-            data-translate-x-speed="-0.6"
-            data-wrapper="#container"
-            data-rotate-speed="0.35"
-
-            data-opacity-speed="-3.1"
-            data-opacity-initial="0.45"
-          >
-            {Array(36)
-              .fill('')
-              .map((j, index) => (
-                <i className="circle-line large" key={index} />
-              ))}
-          </figure>
+            <figure
+              className="circle-crazy parallax circle-4"
+              data-rotate-speed="0.55"
+              data-translate-y-speed="0.76"
+              data-translate-x-speed="-0.6"
+              data-wrapper="#container"
+              data-rotate-speed="0.35"
+              data-opacity-speed="-3.1"
+              data-opacity-initial="0.45"
+            >
+              {Array(36)
+                .fill('')
+                .map((j, index) => (
+                  <i className="circle-line large" key={index} />
+                ))}
+            </figure>
+          </div>
         </section>
         <Footer />
       </div>

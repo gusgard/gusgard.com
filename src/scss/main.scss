@@ -1,3 +1,6 @@
+html {
+  height: 100%;
+}
 html,
 body {
   background: linear-gradient(315deg, $blue 30%, $red 100%);
@@ -6,7 +9,7 @@ body {
   font-family: 'Roboto Slab', serif;
   line-height: 1.5em;
   font-size: 18px;
-
+  overflow-x: hidden;
   // @include mobile {
   //     background-size: 100% 125px;
   // }
@@ -45,7 +48,7 @@ a {
 }
 
 .main-content {
-  margin: 0 0 100px 0;
+  position: relative;
 }
 
 .not-found-section {
@@ -95,22 +98,23 @@ figure {
     height: 4rem;
     margin: 0;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    // left: 50%;
+    // top: 50%;
     transition: 1.4s;
     transform-style: preserve-3d;
 
     &.circle-1 {
       left: 80%;
-      top: 90%;
+      bottom: 20%;
     }
     &.circle-2 {
       left: 5%;
-      top: 80%;
+      top: 40%;
     }
     &.circle-3 {
-      left: 95%;
-      top: 100%;
+      left: 55%;
+      bottom: 10%;
+      // bottom: calc(-50%);
     }
     &.circle-4 {
       left: 90%;

@@ -25,21 +25,7 @@ export default function Index({ data }) {
       <Menu />
       <section className="blog container">
         <div className="medium-8 medium-offset-2">
-          <div className="blog-header">
-            <GatsbyLink to="/" className="blog-header__link" itemProp="name">
-              <img
-                className="header-avatar blog-header__img"
-                src={avatarImage}
-                alt="Gustavo Gard"
-              />
-            </GatsbyLink>
-            <h1>Gustavo Gard</h1>
-            <p>
-              I'm a computer software engineering with experience in both
-              frontend and backend.
-            </p>
-          </div>
-          <header className="header">Latest Posts</header>
+          {/* <header className="header">Latest Posts</header> */}
           <Separator />
           <div className="posts">
             <Posts posts={posts} />
